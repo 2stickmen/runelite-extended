@@ -1,15 +1,18 @@
 package net.runelite.rs.api;
 
-import net.runelite.api.FriendManager;
+import net.runelite.api.ClanMemberManager;
+import net.runelite.api.Friend;
+import net.runelite.api.Ignore;
+import net.runelite.api.NameableContainer;
 import net.runelite.mapping.Import;
 
-public interface RSFriendSystem extends FriendManager
+public interface RSFriendSystem
 {
 	@Import("friendsList")
-	RSFriendsList getFriendContainer();
+	NameableContainer<Friend> getFriendContainer();
 
 	@Import("ignoreList")
-	RSIgnoreList getIgnoreContainer();
+	NameableContainer<Ignore> getIgnoreContainer();
 
 	@Import("isFriended")
 	boolean isFriended(RSUsername var1, boolean var2);
