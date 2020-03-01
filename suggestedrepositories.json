@@ -1,14 +1,16 @@
-{
-      "projectUrl":"https://discord.gg/vVWTdd",
-      "repository":"https://github.com/Owain94/OpenOSRS-RL-hub-hosting",
-      "provider":"Owain94",
-      "name":"OpenOSRS-RL-hub",
-      "description":"This repository contains plugins from the RuneLite plugin hub. The plugins are converted to make them work with OpenOSRS."
-},
-{
-      "projectUrl":"Test",
-      "repository":"Test",
-      "provider":"Owain94",
-      "name":"Test",
-      "description":"Test."
-}
+[
+      {
+            "projectUrl":"https://discord.gg/vVWTdd",
+            "repository":"https://github.com/Owain94/OpenOSRS-RL-hub-hosting",
+            "provider":"Owain94",
+            "name":"OpenOSRS-RL-hub",
+            "description":"This repository contains plugins from the RuneLite plugin hub. The plugins are converted to make them work with OpenOSRS."
+      },
+      {
+            "projectUrl":"Test",
+            "repository":"Test",
+            "provider":"Owain94",
+            "name":"Test",
+            "description":"Test."
+      }
+]
